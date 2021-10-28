@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import Home from './Header/Home';
 import About from './Header/About';
-import Index from './Header/Index'
+
 
 
 const Main = () =>  {
@@ -16,9 +16,7 @@ const Main = () =>  {
                 <Route path='/about'> 
                     <About/>
                 </Route>
-                <Route path='/index'> 
-                    <Index/>
-                </Route>
+              
 
                  
               

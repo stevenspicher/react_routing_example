@@ -21,10 +21,7 @@ const Main = () =>  {
                     <Error/>
                 </Route>
               </Switch>
-
-                 
-              
-             
+   
         </main>
 
     );

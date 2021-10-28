@@ -18,7 +18,7 @@ const App = () => {
       <Header/> 
       <Main /> 
     </div>  
-    <Body/>
+    
           
     </>
   );

@@ -1,6 +1,6 @@
 const NewsBody = () => {
     return (
-        <p>News</p>
+        <p>News Body Content</p>
     )
 }
 

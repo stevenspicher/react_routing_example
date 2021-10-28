@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import News from './News';
 import Contact from './Contact';
 import AboutBanner from './About_Banner';
-import HomeBanner from './Home_Banner';
+import HomeBody from './Home_Banner';
 import IndexBanner from './Index_Banner';
 import Error from '../Error';
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
         <div className='banner'>
             <Switch>
                 <Route exact path='/'>
-                        <HomeBanner/>
+                        <HomeBody/>
                     </Route>
                     <Route exact path='/about'>
                         <AboutBanner/>

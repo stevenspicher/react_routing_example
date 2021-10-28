@@ -1,6 +1,6 @@
 const ContactBody = () => {
     return (
-        <p>Contact</p>
+        <p>Contact Body Content</p>
     )
 }
 

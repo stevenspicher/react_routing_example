@@ -1,6 +1,6 @@
 const AboutBody = () => {
     return (
-        <p>About</p>
+        <p>About Body Content</p>
     )
 }
 

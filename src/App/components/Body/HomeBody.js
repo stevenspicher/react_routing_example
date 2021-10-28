@@ -1,6 +1,6 @@
 const HomeBody = () => {
     return (
-        <p>Home</p>
+        <p>Home Body Content</p>
     )
 }
 

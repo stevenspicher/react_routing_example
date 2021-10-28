@@ -1,6 +1,6 @@
 const News = () => {
     return (
-        <p>News</p>
+        <p>24 hr News Banner</p>
     );
 }
 

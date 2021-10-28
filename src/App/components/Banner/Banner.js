@@ -22,9 +22,6 @@ const Banner = () => {
                 <Route path='/about/contact'> 
                     <Contact/>
                 </Route>
-                <Route path='/about/contact'> 
-                    <Contact/>
-                </Route>
                 <Route path='*'> 
                     <Error/>
                 </Route>

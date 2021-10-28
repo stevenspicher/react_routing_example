@@ -7,6 +7,7 @@ import Index from './Index';
 import Index1 from './Index1';
 import Index2 from './Index2';
 import Index3 from './Index3';
+import Error from '../Error';
 
 const Body = () => {
     return(
@@ -35,6 +36,9 @@ const Body = () => {
             </Route>
             <Route  path='/index/3'> 
                 <Index3/>
+            </Route>
+            <Route path='*'> 
+                    <Error/>
             </Route>
         </Switch>
     </div>

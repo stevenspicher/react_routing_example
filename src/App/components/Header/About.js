@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const About = ({person}) => {
+const About = () => {
     return (
         <div className="sidebar">
             <p>About the site</p>

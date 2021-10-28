@@ -17,9 +17,7 @@ const App = () => {
     <div className="menu">
       <Header/> 
       <Main /> 
-    </div>  
-    
-          
+    </div>      
     </>
   );
 }

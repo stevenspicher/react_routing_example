@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 
 import Home from './Header/Home';
@@ -15,11 +15,7 @@ const Main = () =>  {
                 </Route>
                 <Route path='/about'> 
                     <About/>
-                </Route>
-              
-
-                 
-              
+                </Route>            
              
         </main>
 

@@ -3,12 +3,6 @@ import Main from './components/Main';
 import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
 
-
-
-
-
-
-
 const App = () => {
  
   return (
@@ -17,9 +11,7 @@ const App = () => {
     <div className="menu">
       <Header/> 
       <Main /> 
-    </div>  
-    
-          
+    </div>   
     </>
   );
 }

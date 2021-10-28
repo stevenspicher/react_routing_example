@@ -1,7 +1,6 @@
 const HomeBanner = () => {
     return (
         <p>Welcome</p>
-
     )
 }
 
